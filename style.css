@@ -1,0 +1,217 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, p, input {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+div, input, p, button, form {
+    box-sizing: border-box;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.header {
+    background: rgba(78,189,254,1);
+    background: -moz-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+    background: -webkit-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -o-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -ms-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: linear-gradient(to right, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+    padding-top: 60px;
+    padding-bottom: 142px;
+    color: white;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offer {
+    /* margin-top: 145px; */
+    width: 555px;
+}
+.title span {
+    font-size: 52px;
+}
+.intro {
+    width: 405px;
+    margin-top: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    background: #ffd429;
+    color: black;
+    display: block;
+    width: 220px;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 45px;
+    transition: all 0.5s ease;
+}
+.btn:hover {
+    background: #f0c20c;
+}
+.desktop {
+    margin-top: 60px;
+    
+}
+.dream {
+    padding-top: 81px;
+    padding-bottom: 148px;
+}
+.future {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+    font-size: 30px;
+}
+.life {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.happy {
+    width: 289px;
+    background: url(../img/icon1.jpg) no-repeat center top;
+     padding-top: 95px; 
+    text-align: center;
+    line-height: 1.6em;
+}
+.happy h3 {
+    font-size: 19px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.happy p {
+    font-weight: 400;
+    font-size: 15px;
+}
+.travel {
+    width: 260px;
+    background: url(../img/icon2.jpg) no-repeat center top;   
+}
+.value {
+    width: 295px;
+    background: url(../img/icon3.jpg) no-repeat center top;
+}
+.ticket {
+    background: #ecf3f8;
+    padding-bottom: 93px;
+    padding-top: 108px;
+}
+.form {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;   
+}
+.input {
+    width: 340px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+}
+.input-btn {
+    width: 340px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-top: 7.5px;
+    cursor: pointer;
+    border: 0;
+}
+.footer {
+    background: #164d7a;
+    padding: 63px 0;
+}
+.credits {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+    .wrapper {
+        margin-top: 60px;
+    }
+    
+    
+}
+/* 768px - 992px */
+@media screen and (max-width: 992px) {  
+    .container {
+        width: 720px;
+    }  
+    .wrapper {
+        flex-direction: column;
+    }
+    .offer {
+        width: 100%;
+        text-align: center;
+    }
+    .intro {
+        width: 95%;
+    }
+    .btn {
+         margin: 45px auto 0;
+    }
+    .input-btn {
+        margin: 0;
+    }
+    .desktop {
+        display: block;
+        width: 524px;
+        margin: 60px auto 0;
+    }
+    .life {
+        flex-direction: column;
+    }
+    .happy {
+        width: auto;
+        margin-bottom: 75px;
+    }
+    .value {
+        margin-bottom: 0;
+    }
+}
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+    .desktop {
+        width: 100%;
+    }
+}
+/* 0 - 576px */
+@media screen and (max-width: 576px) {
+    .container {
+        width: 95%;
+    }
+    h2 {
+        text-align: center;
+    }
+    .input {
+        width: 95%;
+    }
+    .btn {
+        width: 95%;
+    }
+}
