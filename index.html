@@ -1,13 +1,141 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=0">
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon.ico" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">About me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#english" class="nav-link">English</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container main-container">
+        <section class="section section-profile" id="about-me">
+          <div class="profile">
+            <h1 class="main-title">Artem Derugin</h1>
+            <h3 class="section-subtitle">Junior Web-developer</h3>
+          </div>
+          <p>
+            <img
+              class="profile-foto"
+              src="assets/guitarist_artem.jpg"
+              alt="my foto"
+            />
+            I recently started learning Java programming language. In the
+            process of learning the language, I found an RS-School, got
+            interested and decided to try my hand at learning front-end
+            development.
+          </p>
+        </section>
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul class="section-list">
+            <li class="section-item contacts-item">Gomel, Belarus</li>
+            <li class="section-item contacts-item">
+              Email:<a href="https://artemderugin1987@gmail.com" title="email"
+                >artemderugin1987@gmail.com</a
+              >
+            </li>
+            <li class="section-item contacts-item">
+              Telegram:<a href="https://t.me/Artemderugin" title="telegram"
+                >@horseman_of_hell</a
+              >
+            </li>
+            <li class="section-item contacts-item">
+              Github:
+              <a href="https://github/Artemderugin" title="github"
+                >Artemderugin</a
+              >
+            </li>
+            <li class="section-item contacts-item">
+              Discord:
+              <a href="https://discord.com/" title="discord"
+                >shatterbrain#7413</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="section-list">
+            <li class="section-item skills-item">
+              Front-end: <span>HTML5(basics), css3(basics)</span>
+            </li>
+
+            <li class="section-item skills-item">
+              Back-end: <span>Java(basics)</span>
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code</h2>
+          <pre>
+            <code>
+            public class Main { 
+              public static void main(String[] args) { 
+                int x;
+                int y; 
+                int sum; 
+                
+                sum = x + y; 
+                
+                System.out.println("Сумма двух чисел равна " + sum); 
+              } 
+            }
+          </code>
+          </pre>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <p>Belorussian State University of Transport - 2004 - 2008</p>
+        </section>
+        <section class="section" id="english">
+          <h1 class="section-title">English</h1>
+          <p>A2 - pre-intermediate</p>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div>
+          2023
+          <a
+            class="nav-link"
+            href="https://github.com/artemderugin"
+            title="Artemderugin"
+            >Artemderugin</a
+          >
+        </div>
+        <a href="https://rs.school/js/" class="rss"></a>
+      </div>
+    </footer>
+  </body>
 </html>
